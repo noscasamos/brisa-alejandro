@@ -442,8 +442,8 @@ font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-style: normal;
   margin-top:10px;
-  color:#A06B4E;
-  font-size: 45px;
+  color:#323232;
+  font-size: 40px;
 
 }
 .dia{
@@ -461,7 +461,7 @@ font-family: 'Arapey', serif;
   font-style: normal;
   margin-top:10px;
   color:A06B4E;
-  color:#A06B4E;
+  color:#323232;
   font-size: 30px;
 
 }
@@ -590,14 +590,16 @@ font-family: "Cormorant Garamond", serif;
 
 }
 .numMesa{
-  font-size: 27px;
+ font-size: 20px;
 font-family: "Cormorant Garamond", serif;
   font-weight: 300;
   font-style: italic;
+  color:#323232;
 }
 .numeroPerMes{
-  font-family: 'EB Garamond', serif;
-  font-size: 40px;
+font-family: 'EB Garamond', serif;
+  font-size: 20px;
+  color:#323232;
 }
 .respetuosamente{
  font-size: 17px;
@@ -631,7 +633,8 @@ font-family: "Cormorant Garamond", serif;
 }
 .numeroPerMes{
   font-family: 'EB Garamond', serif;
-  font-size: 30px;
+  font-size: 20px;
+  color:#323232;
 }
 .respetuosamente{
   font-size: 17px;
@@ -867,21 +870,25 @@ box-shadow: 10px 25px 25px rgba(0,0,0,0.5);
 @media only screen and (max-width: 380px) and (min-width: 320px)  {
   .btn{
    text-decoration:none;
-  color:black;
-  border-color: #d8bb98;
-  background-color: #d8bb98;
-    font-family: 'Cormorant Garamond', serif;
-    letter-spacing: 1px;
+  color:white;
+  border-color: #171d31;
+  background-color: #171d31;
+   font-family: 'Montserrat', sans-serif; 
+   font-optical-sizing: auto; 
+   font-weight: 500;
+    letter-spacing: 2px;
 }
 }
 @media (max-width:320px){
 
 .btn{
-   text-decoration:none;
-  color:black;
-  border-color: #d8bb98;
-  background-color: #d8bb98;
-    font-family: 'Cormorant Garamond', serif;
+ text-decoration:none;
+  color:white;
+  border-color: #171d31;
+  background-color: #171d31;
+   font-family: 'Montserrat', sans-serif; 
+   font-optical-sizing: auto; 
+   font-weight: 500;
     letter-spacing: 0px;
 }
 }
@@ -1578,6 +1585,18 @@ background-size: 50%;
   background-position-x: center;
 
 }
+.nuestraBoda{
+ font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-style: normal;
+  margin-top:280px;
+  margin-bottom: -20px;
+  color:#fff;
+  font-size: 70px;
+  z-index: 9999;
+ text-shadow: 2px 2px 4px #000000;
+}
 }
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {/*iPAD MINI*/
 
@@ -1611,6 +1630,18 @@ background-size: 50%;
   background-position-x: center;
 
 }
+.nuestraBoda{
+ font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-style: normal;
+  margin-top:280px;
+  margin-bottom: -20px;
+  color:#fff;
+  font-size: 70px;
+  z-index: 9999;
+ text-shadow: 2px 2px 4px #000000;
+}
 }  
 @media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {/*iPAD PRO*/
   .imagen4{
@@ -1642,6 +1673,18 @@ background-size: 50%;
   position: relative;
   background-position-x: center;
 
+}
+.nuestraBoda{
+ font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-style: normal;
+  margin-top:380px;
+  margin-bottom: -20px;
+  color:#fff;
+  font-size: 70px;
+  z-index: 9999;
+ text-shadow: 2px 2px 4px #000000;
 }
 }
 @media all and (device-width: 912px) and (device-height: 1368px) and (orientation:portrait) {/*SURFACE PRO7*/
@@ -1676,6 +1719,18 @@ background-size: 50%;
 display: block;
   margin: auto;
 }
+.nuestraBoda{
+ font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-style: normal;
+  margin-top:350px;
+  margin-bottom: -20px;
+  color:#fff;
+  font-size: 70px;
+  z-index: 9999;
+ text-shadow: 2px 2px 4px #000000;
+}
 }
 @media all and (device-width: 853px) and (device-height: 1280px) and (orientation:portrait) {/*ASUS ZENBOOK*/
 .imagen4{
@@ -1708,6 +1763,18 @@ background-size: 50%;
   background-position-x: center;
 
 }
+.nuestraBoda{
+ font-family: "WindSong", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-style: normal;
+  margin-top:320px;
+  margin-bottom: -20px;
+  color:#fff;
+  font-size: 70px;
+  z-index: 9999;
+ text-shadow: 2px 2px 4px #000000;
+}
 }
 
 @media (min-width: 1200px) { /*laptop*/
@@ -1729,7 +1796,7 @@ background-size: 50%;
 }
 .portada{
 width: 100%;
-height: 100%;
+height: 820px;
 margin-top: 0px;
 margin-bottom: 0px;
 position: center;
@@ -1742,6 +1809,7 @@ background-size: 40%;
 display: block;
   margin: auto;
 }
+
 }
 .evitarDress{
   
