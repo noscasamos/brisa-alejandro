@@ -81,7 +81,7 @@ window.sr = ScrollReveal();
 	});
 	sr.reveal('.textoNosCasamos', {
 		duration: 3000, //tiempo
-		delay:1500,
+		delay:1000,
 		origin: 'top', //origen
 		distance: '200px', //distancia
 		
